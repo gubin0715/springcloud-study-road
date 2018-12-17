@@ -12,7 +12,7 @@
     <artifactId>springcloud-study-ribbon</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>springcloud-study-ribbon</name>
-    <description>服务消费者</description>
+    <description>服务消费者，负载均衡</description>
     <packaging>jar</packaging>
 
     <properties>

@@ -11,7 +11,7 @@
     <artifactId>springcloud-study-ribbon-hystrix</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>springcloud-study-ribbon-hystrix</name>
-    <description>断路由，防止雪崩效应</description>
+    <description>负载均衡,断路由，防止雪崩效应</description>
     <packaging>jar</packaging>
 
     <properties>
