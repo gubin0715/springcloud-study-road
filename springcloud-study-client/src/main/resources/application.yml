@@ -5,5 +5,7 @@ eureka:
 spring:
   application:
     name: springcloud-study-client
+  zipkin:
+    base-url: http://localhost:8760
 server:
   port: 8762

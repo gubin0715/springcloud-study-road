@@ -61,3 +61,7 @@ springcloud-study-zuul/mvnw
 springcloud-study-zuul/mvnw.cmd
 springcloud-study-zuul/.mvn/
 springcloud-study-zuul/target/
+springcloud-study-zipkin/mvnw
+springcloud-study-zipkin/mvnw.cmd
+springcloud-study-zipkin/.mvn/
+springcloud-study-zipkin/target/

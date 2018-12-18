@@ -6,13 +6,12 @@
         <groupId>com.gubin</groupId>
         <artifactId>springcloud-study-road</artifactId>
         <version>0.0.1-SNAPSHOT</version>
-        <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.gubin</groupId>
-    <artifactId>springcloud-study-client</artifactId>
+    <artifactId>springcloud-study-zipkin</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>springcloud-study-client</name>
-    <description>服务提供者</description>
+    <name>springcloud-study-zipkin</name>
+    <description>分布式链路调用监控系统</description>
     <packaging>jar</packaging>
 
     <properties>
@@ -29,19 +28,19 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
-        <!-- eureka：微服务客户端 -->
+        <!-- eureka：微服务注册 -->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-eureka</artifactId>
         </dependency>
-        <!--zipkin依赖-->
+        <!--zipkin 依赖-->
         <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-zipkin</artifactId>
+            <groupId>io.zipkin.java</groupId>
+            <artifactId>zipkin-server</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-sleuth-zipkin</artifactId>
+            <groupId>io.zipkin.java</groupId>
+            <artifactId>zipkin-autoconfigure-ui</artifactId>
         </dependency>
     </dependencies>
 
