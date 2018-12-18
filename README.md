@@ -16,6 +16,7 @@ spring boot+spring cloud
 7. springcloud-study-ribbon（负载均衡服务调用）
 8. springcloud-study-ribbon-hystrix（断路由负载均衡服务调用）
 9. springcloud-study-zuul（路由转发、过滤器，默认和Ribbon结合实现了负载均衡的功能）
+10. springcloud-study-zipkin（分布式链路调用监控系统）
 
 #### 码云特技
 
