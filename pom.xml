@@ -19,7 +19,18 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
     </properties>
-
+    <modules>
+        <module>springcloud-study-client</module>
+        <module>springcloud-study-eureka</module>
+        <module>springcloud-study-feign</module>
+        <module>springcloud-study-feign-hystrix</module>
+        <module>springcloud-study-hystrix-dashboard</module>
+        <module>springcloud-study-hystrix-turbine</module>
+        <module>springcloud-study-ribbon</module>
+        <module>springcloud-study-ribbon-hystrix</module>
+        <module>springcloud-study-zipkin</module>
+        <module>springcloud-study-zuul</module>
+    </modules>
     <!-- 指定cloud的版本号 -->
     <dependencyManagement>
         <dependencies>
