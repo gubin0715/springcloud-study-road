@@ -9,6 +9,9 @@ server:
   port: 8765
 zuul:
   routes:
-    hello-a :
-      path: /hello-a/**
+    study-feign :
+      path: /study-feign/**
       serviceId: springcloud-study-feign
+    study-client :
+      path: /study-client/**
+      serviceId: springcloud-study-client
