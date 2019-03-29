@@ -22,4 +22,6 @@ hystix turbine数据监控聚合
 #### 码云特技
 
 1. eureka注册中心：http://localhost:8761/
-2. springboot多模块：https://gitee.com/gubin0715/java-road-parent
+2. hystrix断路器监控：http://localhost:8768/hystrix
+3. springboot多模块：https://gitee.com/gubin0715/java-road-parent
+4. zipkin服务链路调用追踪：http://localhost:8760/
